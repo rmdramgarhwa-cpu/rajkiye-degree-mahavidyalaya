@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Faculty directory of Rajkiye Degree Mahavidyalaya, Ramgarhwa.">
+<title>Faculty Directory | Rajkiye Degree Mahavidyalaya, Ramgarhwa</title>
+<style>
+:root{--navy:#102c4e;--gold:#d8ad58;--cream:#f7f5ef;--ink:#243247;--muted:#667487;--line:#e4e8ee}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);line-height:1.6;background:#fff}
+.container{width:min(1160px,92%);margin:auto}a{color:inherit;text-decoration:none}
+.topbar{background:#0b2038;color:#dce6f1;font-size:.82rem}.topbar .container{display:flex;justify-content:space-between;gap:12px;padding:9px 0;flex-wrap:wrap}
+.masthead{padding:22px 0;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:16px}.seal{width:62px;height:62px;border:2px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--navy);background:#fffaf0;font-size:1.5rem;flex-shrink:0}.brand h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.2rem,2.4vw,1.8rem);line-height:1.2;margin:0;color:var(--navy)}.brand p{margin:6px 0 0;color:var(--muted);font-size:.9rem}
+nav{background:var(--navy);color:#fff}nav .container{display:flex;gap:18px;align-items:center;padding:13px 0;flex-wrap:wrap}nav a{font-size:.9rem;color:#edf3fa}nav a:hover{color:#ffe4a4}
+.page-hero{background:linear-gradient(115deg,#102c4e,#1b4a78);color:#fff;padding:58px 0 52px}.eyebrow{color:#f2d18c;text-transform:uppercase;letter-spacing:.16em;font-weight:750;font-size:.76rem}.page-hero h2{font-family:Georgia,serif;font-size:clamp(2.1rem,4.5vw,3.5rem);font-weight:500;line-height:1.1;margin:10px 0}.page-hero p{max-width:670px;color:#e0e9f2;margin:0}
+main{padding:46px 0 70px}.tools{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:24px}.tools input,.tools select{font:inherit;padding:12px 14px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink);min-width:220px}.tools input{flex:1}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{border:1px solid var(--line);border-radius:9px;padding:24px;background:#fff;box-shadow:0 8px 24px #102c4e07;transition:transform .2s,box-shadow .2s}.card:hover{transform:translateY(-3px);box-shadow:0 14px 28px #102c4e12}.avatar{width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:#e9eff7;color:var(--navy);font-family:Georgia,serif;font-weight:700;font-size:1.1rem;border:2px solid #e5d2a6;margin-bottom:17px}.dept{color:#986d29;text-transform:uppercase;letter-spacing:.1em;font-size:.72rem;font-weight:800}.card h3{color:var(--navy);font-size:1.12rem;margin:6px 0 4px}.role{color:var(--muted);font-size:.88rem;margin:0}.count{color:var(--muted);font-size:.85rem;margin:17px 0 0}.empty{display:none;background:var(--cream);padding:22px;border-radius:8px;color:var(--muted)}
+footer{background:#091d33;color:#d7e1eb;padding:25px 0;font-size:.82rem}footer .container{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}footer a{color:#f1d393}
+@media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.grid{grid-template-columns:1fr}.tools input,.tools select{width:100%;min-width:0}.masthead{padding:16px 0}.seal{width:52px;height:52px}.topbar{font-size:.75rem}}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container"><span>Rajkiye Degree Mahavidyalaya, Ramgarhwa</span><span>Faculty Directory</span></div></div>
+<header class="masthead"><div class="container"><div class="brand"><div class="seal" aria-label="Temporary college emblem">✦</div><div><h1>Rajkiye Degree Mahavidyalaya</h1><p>Ramgarhwa · East Champaran, Bihar, India</p></div></div></div></header>
+<nav><div class="container"><a href="index.html">← Back to Home</a><a href="about.html" target="_blank" rel="noopener">About Us ↗</a><a href="academics.html" target="_blank" rel="noopener">Academics ↗</a><a href="notices.html" target="_blank" rel="noopener">Notices ↗</a><a href="facilities.html" target="_blank" rel="noopener">Facilities ↗</a><a href="contact.html" target="_blank" rel="noopener">Contact ↗</a></div></nav>
+<section class="page-hero"><div class="container"><div class="eyebrow">Our academic community</div><h2>Meet our faculty</h2><p>Faculty directory of Rajkiye Degree Mahavidyalaya, Ramgarhwa. Search by name or filter by department to find a faculty member.</p></div></section>
+<main id="faculty-list"><div class="container">
+<div class="tools"><label style="position:absolute;left:-9999px" for="search">Search faculty</label><input id="search" type="search" placeholder="Search by faculty name or department…" aria-label="Search faculty by name or department"><label style="position:absolute;left:-9999px" for="department">Filter department</label><select id="department" aria-label="Filter by department"><option value="all">All departments</option><option>English</option><option>History</option><option>Sociology</option><option>Political Science</option><option>Economics</option><option>Hindi</option></select></div>
+<div class="grid" id="grid">
+<article class="card" data-name="Dr. Aditya Raj" data-department="English"><div class="avatar">AR</div><div class="dept">English</div><h3>Dr. Aditya Raj</h3><p class="role">Assistant Professor · English</p></article>
+<article class="card" data-name="Dr. Shashi Ranjan Singh" data-department="History"><div class="avatar">SS</div><div class="dept">History</div><h3>Dr. Shashi Ranjan Singh</h3><p class="role">Assistant Professor · History</p></article>
+<article class="card" data-name="Dr. Pradumn Singh" data-department="Sociology"><div class="avatar">PS</div><div class="dept">Sociology</div><h3>Dr. Pradumn Singh</h3><p class="role">Assistant Professor · Sociology</p></article>
+<article class="card" data-name="Dr. Raushani Kumari" data-department="Sociology"><div class="avatar">RK</div><div class="dept">Sociology</div><h3>Dr. Raushani Kumari</h3><p class="role">Assistant Professor · Sociology</p></article>
+<article class="card" data-name="Roshani Kumari" data-department="History"><div class="avatar">RK</div><div class="dept">History</div><h3>Roshani Kumari</h3><p class="role">Assistant Professor · History</p></article>
+<article class="card" data-name="Avinash Chandra" data-department="Political Science"><div class="avatar">AC</div><div class="dept">Political Science</div><h3>Avinash Chandra</h3><p class="role">Assistant Professor · Political Science</p></article>
+<article class="card" data-name="Raushan Raj" data-department="Political Science"><div class="avatar">RR</div><div class="dept">Political Science</div><h3>Raushan Raj</h3><p class="role">Assistant Professor · Political Science</p></article>
+<article class="card" data-name="Saurabh Kumar" data-department="Economics"><div class="avatar">SK</div><div class="dept">Economics</div><h3>Saurabh Kumar</h3><p class="role">Assistant Professor · Economics</p></article>
+<article class="card" data-name="Amit Kumar" data-department="Economics"><div class="avatar">AK</div><div class="dept">Economics</div><h3>Amit Kumar</h3><p class="role">Assistant Professor · Economics</p></article>
+<article class="card" data-name="Dr. Varun Bharti" data-department="Hindi"><div class="avatar">VB</div><div class="dept">Hindi</div><h3>Dr. Varun Bharti</h3><p class="role">Assistant Professor · Hindi</p></article>
+<article class="card" data-name="Nandini Gupta" data-department="Hindi"><div class="avatar">NG</div><div class="dept">Hindi</div><h3>Nandini Gupta</h3><p class="role">Assistant Professor · Hindi</p></article>
+</div><p class="empty" id="empty">No faculty members match your search.</p><p class="count" id="count" aria-live="polite">Showing 11 faculty members</p>
+</div></main>
+<footer><div class="container"><span>© <span id="year"></span> Rajkiye Degree Mahavidyalaya, Ramgarhwa</span><a href="index.html">Return to college homepage</a></div></footer>
+<script>
+const search=document.getElementById('search'),department=document.getElementById('department'),cards=[...document.querySelectorAll('.card')],count=document.getElementById('count'),empty=document.getElementById('empty');
+function filterCards(){const q=search.value.trim().toLowerCase(),d=department.value;let shown=0;cards.forEach(c=>{const match=(c.dataset.name+' '+c.dataset.department).toLowerCase().includes(q)&&(d==='all'||c.dataset.department===d);c.hidden=!match;if(match)shown++});count.textContent='Showing '+shown+' of '+cards.length+' faculty members';empty.style.display=shown?'none':'block'}
+search.addEventListener('input',filterCards);department.addEventListener('change',filterCards);document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
